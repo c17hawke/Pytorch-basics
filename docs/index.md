@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# PyTorch
+This contains PyTorch basic demo notebooks and scripts
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Paper
+[PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/abs/1912.01703)
 
-## Commands
+## Content
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+|Topic|SubTopic|
+|-|-|
+|Section: 1 PyTorch Introduction | Introduction to PyTorch |
+|| PyTorch installation and setup |
