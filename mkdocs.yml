@@ -3,6 +3,7 @@ site_name: PyTorch basics
 # defeine TOC or order of website-
 nav:
   - Home: index.md
+  - Section_001: Section_001_PyTorch_Introduction.md
   - Feedback: feedback.md
 
 site_author: Sunny Bhaveen Chandra
