@@ -11,4 +11,4 @@
     ```bash
     pip install notebook
     ```
-* demo notebook - https://
+* demo notebook - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/00_first_demo.ipynb)
