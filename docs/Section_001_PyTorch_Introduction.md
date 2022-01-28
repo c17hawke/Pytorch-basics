@@ -2,11 +2,11 @@
 
 ## Introduction to PyTorch
 
-* PyTorch official docs - https://pytorch.org
+* PyTorch official docs - [pytorch.org](https://pytorch.org)
 
 ## PyTorch installation and setup
 
-* PyTorch installation reference - https://pytorch.org/get-started/locally/
+* PyTorch installation reference - [Click here](https://pytorch.org/get-started/locally/)
 * Notebook insallation command - 
     ```bash
     pip install notebook
