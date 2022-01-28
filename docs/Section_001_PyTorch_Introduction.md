@@ -12,3 +12,21 @@
     pip install notebook
     ```
 * demo notebook - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/00_first_demo.ipynb)
+
+--- 
+
+## Demo notebook output - 
+
+```python
+import torch
+```
+```python
+print(torch.__version__)
+```
+>   1.10.2+cu113
+
+```python
+torch.cuda.is_available()
+```
+>   True
+
