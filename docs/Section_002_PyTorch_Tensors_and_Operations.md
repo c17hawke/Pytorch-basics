@@ -15,7 +15,7 @@
 
 ## Demo Notebook - 
 
-## Tensors
+### Tensors
 
 ```python
 import torch
@@ -93,7 +93,7 @@ tensor.requires_grad
 ```
 >    True
 
-### Other commonly used tensors
+#### Other commonly used tensors
 
 ```python
 x = torch.empty(size=(3,3))
@@ -206,7 +206,7 @@ x
             [0., 0., 0., 0., 0., 0., 0., 0., 5., 0.],
             [0., 0., 0., 0., 0., 0., 0., 0., 0., 5.]])
 
-## Conversions
+### Type Conversions
 
 ```python
 x = torch.arange(4)
