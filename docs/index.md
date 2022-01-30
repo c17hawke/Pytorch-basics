@@ -10,3 +10,4 @@ This contains PyTorch basic demo notebooks and scripts
 |-|-|
 |Section: 1 PyTorch Introduction | Introduction to PyTorch |
 || PyTorch installation and setup |
+|Section: 2 PyTorch Tensors and Operations | What is tensor? & Type Conversions|
