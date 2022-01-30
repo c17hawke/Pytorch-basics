@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Section 1 PyTorch Introduction: Section_001_PyTorch_Introduction.md
   - Section 2 PyTorch Tensors and Operations: Section_002_PyTorch_Tensors_and_Operations.md
+  - Section 3 AutoGrad: Section_003_AutoGrad.md
   - References: references.md
 
 site_author: Sunny Bhaveen Chandra
