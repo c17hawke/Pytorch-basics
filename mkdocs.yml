@@ -4,6 +4,7 @@ site_name: PyTorch basics
 nav:
   - Home: index.md
   - Section 1 PyTorch Introduction: Section_001_PyTorch_Introduction.md
+  - Section 2 PyTorch Tensors and Operations: Section_002_PyTorch_Tensors_and_Operations.md
   - Feedback: feedback.md
 
 site_author: Sunny Bhaveen Chandra
