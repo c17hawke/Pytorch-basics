@@ -14,23 +14,24 @@
 ---
 
 ## Demo Notebook - 
+[nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/2%20PyTorch%20Tensors%20and%20Operations.ipynb)
 
 ### Tensors
 
-```python
+```py linenums="1"
 import torch
 import numpy as np
 import os
 ```
 
-```python
+```py linenums="1" 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 device
 ```
 >    'cuda'
 
-```python
+```py linenums="1"
 basic_tensor = torch.tensor([[1,2,3],[11,22,33]])
 
 basic_tensor
@@ -39,32 +40,32 @@ basic_tensor
             [11, 22, 33]])
 
 
-```python
+```py linenums="1"
 basic_tensor.dtype
 ```
 
 >    torch.int64
 
 
-```python
+```py linenums="1"
 basic_tensor.device
 ```
 
 >    device(type='cpu')
 
-```python
+```py linenums="1"
 basic_tensor.shape
 ```
 
 >    torch.Size([2, 3])
 
 
-```python
+```py linenums="1"
 basic_tensor.requires_grad
 ```
 >    False
 
-```python
+```py linenums="1"
 tensor = torch.tensor([[1,2,3],[11,22,33]],
                      dtype=torch.float,
                      device=device,
@@ -77,25 +78,25 @@ tensor
             [11., 22., 33.]], device='cuda:0', requires_grad=True)
 
 
-```python
+```py linenums="1"
 tensor.dtype
 ```
 
 >    torch.float32
 
-```python
+```py linenums="1"
 tensor.device
 ```
 >    device(type='cuda', index=0)
 
-```python
+```py linenums="1"
 tensor.requires_grad
 ```
 >    True
 
 #### Other commonly used tensors
 
-```python
+```py linenums="1"
 x = torch.empty(size=(3,3))
 x
 ```
@@ -103,7 +104,7 @@ x
             [0., 0., 0.],
             [0., 0., 0.]])
 
-```python
+```py linenums="1"
 x = torch.zeros(size=(3,3))
 x
 ```
@@ -111,7 +112,7 @@ x
             [0., 0., 0.],
             [0., 0., 0.]])
 
-```python
+```py linenums="1"
 x = torch.ones(size=(3,3))
 x
 ```
@@ -119,7 +120,7 @@ x
             [1., 1., 1.],
             [1., 1., 1.]])
 
-```python
+```py linenums="1"
 x = torch.rand(size=(3,4))
 x
 ```
@@ -127,7 +128,7 @@ x
             [0.2788, 0.3333, 0.6220, 0.6664],
             [0.3703, 0.9297, 0.6921, 0.1396]])
 
-```python
+```py linenums="1"
 x = torch.eye(3)
 x
 ```
@@ -136,13 +137,13 @@ x
             [0., 1., 0.],
             [0., 0., 1.]])
 
-```python
+```py linenums="1"
 x = torch.arange(start=0, end=7, step=2)
 x
 ```
 >    tensor([0, 2, 4, 6])
 
-```python
+```py linenums="1"
 x = torch.linspace(start=0, end=7, steps=10)
 x
 ```
@@ -150,7 +151,7 @@ x
 >    tensor([0.0000, 0.7778, 1.5556, 2.3333, 3.1111, 3.8889, 4.6667, 5.4444, 6.2222,
             7.0000])
 
-```python
+```py linenums="1"
 x = torch.rand(size=(3,4)).normal_(mean=0, std=1)
 x
 ```
@@ -159,7 +160,7 @@ x
             [ 0.5222,  2.4026,  0.6896,  1.0098],
             [-1.0985,  0.5391,  1.9458, -1.8787]])
 
-```python
+```py linenums="1"
 x = torch.rand(size=(3,4)).uniform_(3, 6)
 x
 ```
@@ -168,7 +169,7 @@ x
             [4.8600, 5.1942, 5.3013, 5.2837],
             [5.7229, 5.4198, 5.7625, 4.3776]])
 
-```python
+```py linenums="1"
 x = torch.diag(torch.ones(10))
 x
 ```
@@ -184,13 +185,13 @@ x
             [0., 0., 0., 0., 0., 0., 0., 0., 1., 0.],
             [0., 0., 0., 0., 0., 0., 0., 0., 0., 1.]])
 
-```python
+```py linenums="1"
 x.shape
 ```
 
 >    torch.Size([10, 10])
 
-```python
+```py linenums="1"
 x = torch.diag(5*torch.ones(10))
 x
 ```
@@ -208,7 +209,7 @@ x
 
 ### Type Conversions
 
-```python
+```py linenums="1"
 x = torch.arange(4)
 x
 ```
@@ -218,7 +219,7 @@ x
 
 
 
-```python
+```py linenums="1"
 x.bool()
 ```
 
@@ -230,7 +231,7 @@ x.bool()
 
 
 
-```python
+```py linenums="1"
 x.int()
 ```
 
@@ -242,7 +243,7 @@ x.int()
 
 
 
-```python
+```py linenums="1"
 x.short() # int16
 ```
 
@@ -254,7 +255,7 @@ x.short() # int16
 
 
 
-```python
+```py linenums="1"
 x.long() # int64
 ```
 
@@ -266,7 +267,7 @@ x.long() # int64
 
 
 
-```python
+```py linenums="1"
 x.half() # float16
 ```
 
@@ -278,7 +279,7 @@ x.half() # float16
 
 
 
-```python
+```py linenums="1"
 x.float() # float32
 ```
 
@@ -290,7 +291,7 @@ x.float() # float32
 
 
 
-```python
+```py linenums="1"
 x.double() # float64
 ```
 
@@ -302,7 +303,7 @@ x.double() # float64
 
 
 
-```python
+```py linenums="1"
 np_array = np.array([[1,2,3], [1,2,3]])
 
 np_array
@@ -317,7 +318,7 @@ np_array
 
 
 
-```python
+```py linenums="1"
 tensor = torch.from_numpy(np_array)
 tensor
 ```
@@ -331,7 +332,7 @@ tensor
 
 
 
-```python
+```py linenums="1"
 tensor.numpy()
 ```
 
