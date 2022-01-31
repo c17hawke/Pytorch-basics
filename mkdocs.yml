@@ -11,7 +11,7 @@ nav:
 
 site_author: Sunny Bhaveen Chandra
 site_description: >-
-  DESCRIPTION
+  This page is meant to host the code used in the PyTorch tutorial of oneNeuron.
 
 # Repository
 repo_name: c17hawke/Pytorch-basics
@@ -27,9 +27,18 @@ theme:
     - navigation.top
   language: en
   palette:
-    scheme: slate
-    primary: green
-    accent: lime
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime    
   # logo: PyTorch_logo_icon.svg
   
 extra:
