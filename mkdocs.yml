@@ -22,6 +22,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - toc.integrate
+    - navigation.top
   language: en
   palette:
     scheme: slate
