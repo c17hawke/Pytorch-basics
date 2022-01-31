@@ -30,7 +30,7 @@ theme:
     scheme: slate
     primary: green
     accent: lime
-  logo: assets/pytorch-logo.png
+  # logo: PyTorch_logo_icon.svg
   
 extra:
   social:
