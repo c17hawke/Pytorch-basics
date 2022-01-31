@@ -19,3 +19,8 @@ To resolve this issue PyTorch has a capability to calculate derivative of functi
     3. **grad** — if required_grad is true, this prop will be a sub-tensor that collects the gradients against this tensor accumulated during backwardpropagation.
     4. **grad_fn** — This is a reference to the most recent operation which generated this tensor. PyTorch performs automatic differentiation by looking through the grad_fn list.
     5. **is_leaf** — Whether or not this is a leaf node.
+
+
+## Demo Notebooks - 
+
+* Derivatives, Partial derivative, & Successive Differentiation - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/05%20Derivatives%2C%20Partial%20derivative%2C%20%26%20Successive%20Differentiation.ipynb)
