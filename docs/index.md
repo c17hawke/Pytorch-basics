@@ -13,5 +13,5 @@ This contains PyTorch basic demo notebooks and scripts
 |[Section: 2 PyTorch Tensors and Operations](./Section_002_PyTorch_Tensors_and_Operations/) | What is tensor? & Type Conversions|
 || Mathematical Operations |
 || Indexing, Slicing, Concatenation, Reshaping Ops |
-|[Section: 3 AutoGrad](/Section_003_AutoGrad/) | Derivatives, Partial derivative, & Successive Differentiation |
+|[Section: 3 AutoGrad](./Section_003_AutoGrad/) | Derivatives, Partial derivative, & Successive Differentiation |
 |[Section: 4 First Neural Network](./Section_004_PyTorch_First_NN/) | Simple ANN Implementation |
