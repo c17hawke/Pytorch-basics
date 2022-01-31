@@ -12,4 +12,5 @@ This contains PyTorch basic demo notebooks and scripts
 || PyTorch installation and setup |
 |Section: 2 PyTorch Tensors and Operations | What is tensor? & Type Conversions|
 || Mathematical Operations |
+|| Indexing, Slicing, Concatenation, Reshaping Ops |
 |Section: 2 AutoGrad | Derivatives, Partial derivative, & Successive Differentiation |
