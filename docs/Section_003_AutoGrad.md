@@ -23,4 +23,4 @@ To resolve this issue PyTorch has a capability to calculate derivative of functi
 
 ## Demo Notebooks - 
 
-* Derivatives, Partial derivative, & Successive Differentiation - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/05%20Derivatives%2C%20Partial%20derivative%2C%20%26%20Successive%20Differentiation.ipynb)
+* Derivatives, Partial derivative, & Successive Differentiation - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/03.01%20Derivatives%2C%20Partial%20derivative%2C%20and%20Successive%20Differentiation.ipynb)
