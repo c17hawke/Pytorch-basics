@@ -1,4 +1,5 @@
 # Section 4: First Neural Network
 
 ## Demo Notebooks -
-[nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/06_Simple_ANN_implementation.ipynb)
+
+* Simple ANN Implementation - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/06_Simple_ANN_implementation.ipynb)

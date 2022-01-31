@@ -14,5 +14,5 @@
 
 ## Demo Notebooks -
 
-* First demo - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/00_first_demo.ipynb)
+* PyTorch installation and setup first demo - [nbviewer](https://nbviewer.org/github/c17hawke/Pytorch-basics/blob/main/codebase/00_first_demo.ipynb)
 
