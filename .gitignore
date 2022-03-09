@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 Rough.ipynb
+temp.ipynb
 MNIST/
+# img_data/
