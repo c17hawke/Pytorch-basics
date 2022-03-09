@@ -7,6 +7,7 @@ nav:
   - Section 2 PyTorch Tensors and Operations: Section_002_PyTorch_Tensors_and_Operations.md
   - Section 3 AutoGrad: Section_003_AutoGrad.md
   - Section 4 First Neural Network: Section_004_PyTorch_First_NN.md
+  - Section 5 Custom data loading: Section_005_Custom_data_loading.md
   - References: references.md
 
 site_author: Sunny Bhaveen Chandra
