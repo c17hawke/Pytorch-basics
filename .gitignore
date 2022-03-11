@@ -128,7 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-Rough.ipynb
-temp.ipynb
+Rough*
+temp*
 MNIST/
 # img_data/
+IMG_DATA/
+Fashion*
