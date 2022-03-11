@@ -8,6 +8,7 @@ nav:
   - Section 3 AutoGrad: Section_003_AutoGrad.md
   - Section 4 First Neural Network: Section_004_PyTorch_First_NN.md
   - Section 5 Custom data loading: Section_005_Custom_data_loading.md
+  - Section 6 Convolutional Neural Network: Section_006_CNN.md
   - References: references.md
 
 site_author: Sunny Bhaveen Chandra
@@ -22,7 +23,7 @@ repo_url: https://github.com/c17hawke/Pytorch-basics
 theme:
   name: material
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
     - toc.integrate
     - navigation.top
