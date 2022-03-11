@@ -134,3 +134,6 @@ MNIST/
 # img_data/
 IMG_DATA/
 Fashion*
+codebase/hymenoptera_data/
+codebase/Session_07_models/Trans_model.pth
+codebase/07.01_main_Transfer_learning_.ipynb
