@@ -9,6 +9,7 @@ nav:
   - Section 4 First Neural Network: Section_004_PyTorch_First_NN.md
   - Section 5 Custom data loading: Section_005_Custom_data_loading.md
   - Section 6 Convolutional Neural Network: Section_006_CNN.md
+  - Section 7 Transfer learning: Section_007_Transfer_learning.md
   - References: references.md
 
 site_author: Sunny Bhaveen Chandra
