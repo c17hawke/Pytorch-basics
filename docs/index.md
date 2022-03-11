@@ -17,3 +17,8 @@ This contains PyTorch basic demo notebooks and scripts
 |[Section: 4 First Neural Network](./Section_004_PyTorch_First_NN/) | Simple ANN Implementation |
 |[Section: 5 Custom data loading](./Section_005_Custom_data_loading) | Structured data |
 ||Unstructured data|
+|[Section 6 Convolutional Neural Network](./Section_006_CNN) | Create data loader |
+||Define CNN model architecture|
+||Train CNN model|
+||Evaluate CNN model|
+||Predict using CNN model|
