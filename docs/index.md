@@ -23,7 +23,10 @@ This contains PyTorch basic demo notebooks and scripts
 ||Evaluate CNN model|
 ||Predict using CNN model|
 |[Section 7 Transfer learning](./Section_007_Transfer_learning) | Download data and create data loader |
-||__|
+||Download and use pretrained model|
+||Train our model|
+||Evaluate our model|
+||Prediction and visualizing prediction outcome|
 
 
 
